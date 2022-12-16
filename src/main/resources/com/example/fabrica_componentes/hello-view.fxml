@@ -12,6 +12,7 @@
 <?import com.example.fabrica_componentes.SwitchSkin?>
 <?import com.example.fabrica_componentes.CustomControl?>
 <?import com.example.fabrica_componentes.RegionControl?>
+<?import com.example.fabrica_componentes.CanvasControl?>
 <GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="544.0" prefWidth="645.0" stylesheets="@style/style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
   <columnConstraints>
     <ColumnConstraints hgrow="SOMETIMES" minWidth="160.0" prefWidth="160.0" />
@@ -87,7 +88,11 @@
            <GridPane.margin>
                <Insets left="80.0"/>
            </GridPane.margin>
-       </RegionControl>
-
+       </RegionControl >
+       <CanvasControl GridPane.rowIndex="1" GridPane.columnIndex="2">
+           <GridPane.margin>
+               <Insets right="80.0"/>
+           </GridPane.margin>
+       </CanvasControl>
    </children>
 </GridPane>
